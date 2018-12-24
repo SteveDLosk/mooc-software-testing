@@ -72,5 +72,5 @@ public class GHappyTest {
         Assertions.assertFalse(result);
     }
 
-    
+
 }
