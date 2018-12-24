@@ -20,6 +20,7 @@ public class RomanNumeral {
 
     public int convert(String s) {
 
+        s = s.toUpperCase();
         int convertedNumber = 0;
         for(int i = 0; i < s.length(); i++) {
             int currentNumber = map.get(s.charAt(i));
