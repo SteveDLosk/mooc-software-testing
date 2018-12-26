@@ -25,6 +25,11 @@ class TwoNumbersSum {
             result.add(i, total);
         }
 
+        // If carrying results in a new larger place value, like from two three-digit numbers to a sum of
+        // a four-digit number
+        if (complement != 0)
+            result.add(complement);
+
         Collections.reverse(result);
         return result;
     }
